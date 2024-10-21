@@ -1,7 +1,6 @@
 /**
 * Name: Distribution_model
 * Distribution model to distribute a thematic model using KMEAN algorithm. 
-* Author: Lucas Grosjean
 * Tags: Visualisation, HPC, distributed ABM, distribution model
 */
 
