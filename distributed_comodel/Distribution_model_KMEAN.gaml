@@ -247,7 +247,7 @@ experiment distribution_experiment type: MPI_EXP  until: (cycle = end_cycle)
 		
 		ask simulation
 		{	
-			save (snapshot("agent")) to: "../output.log/snapshot/" + mpi_id + "/cycle"+ cycle + ".png" rewrite: true;	
+			save (snapshot("agent")) to: "../output.log/snapshot/" + mpi_id + "/cycle-"+ cycle + ".png" rewrite: true;	
 		}
 	}
 	
