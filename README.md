@@ -1,6 +1,6 @@
 # DistributionModel
 
-Proof of concepts and experimentations for the article : "Distribution Model: Separation of Concerns To Facilitate the Distribution ofAgent-Based Models" for IJCAI 2025 [https://2025.ijcai.org/](https://2025.ijcai.org/)
+Proof of concepts for distribution model
 
 # Requirements  
 Java 17
