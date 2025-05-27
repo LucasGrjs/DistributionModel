@@ -2,8 +2,6 @@
 
 This document outlines the **DistributionModel** project, which contains proof-of-concept implementations and experiments for distribution models within the **GAMA Platform**.
 
----
-
 ## Requirements
 
 To set up and run this project, you'll need the following:
@@ -12,8 +10,6 @@ To set up and run this project, you'll need the following:
 * **mpirun (Open MPI) 4.1.4**: Download from [https://www.open-mpi.org/software/ompi/v4.1/](https://www.open-mpi.org/software/ompi/v4.1/)
 * **Apache Maven 3.8.6**
 * **Java Binding for Open MPI**: Refer to [https://www.open-mpi.org/faq/?category=java](https://www.open-mpi.org/faq/?category=java) for details.
-
----
 
 ## Compiling the Project
 
