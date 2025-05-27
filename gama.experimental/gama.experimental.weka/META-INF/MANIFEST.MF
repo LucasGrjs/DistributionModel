@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Weka plug-in
+Bundle-SymbolicName: gama.experimental.weka;singleton:=true
+Bundle-Version: 1.7.0.qualifier
+Require-Bundle: gama.core,
+ gama.dependencies
+Bundle-ClassPath: lib/weka.jar,
+ .
+Export-Package: gama.experimental.weka.operators
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: IDEES
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: idees.gama.weka

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="gama.extension.feature.pmml"
+      label="PMML Evaluation skill based on JPMML"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      This plugin adds PMML evaluation capacities to GAMA.
+Thanks to a certain number of operators, it makes it possible to load directly PMML files representing prediction  models (random forest, support vector machine, neural network etc.) that have been generated on different platforms (for example from python with scikit-learn or in R) and use it to predict values directly in your GAMA simulation.
+This implementation is based on JPMML and should provide good execution time.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="gama.extension.pmml"
+         version="0.0.0"/>
+
+</feature>

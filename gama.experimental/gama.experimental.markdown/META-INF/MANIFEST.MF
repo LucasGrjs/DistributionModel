@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Markdown Documentation
+Bundle-SymbolicName: gama.experimental.markdown;singleton:=true
+Bundle-Vendor: UMMISCO
+Bundle-Version: 2024.6.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.11.1",
+ org.eclipse.ui;bundle-version="3.107.0",
+ gama.core,
+ gama.dependencies,
+ gama.ui.navigator,
+ gama.ui.shared,
+ org.eclipse.ui.ide;bundle-version="3.11.0",
+ org.eclipse.core.filesystem;bundle-version="1.5.0",
+ org.eclipse.core.resources;bundle-version="3.10.1",
+ gama.ui.application,
+ org.eclipse.jface.text;bundle-version="3.10.0",
+ org.eclipse.ui.forms;bundle-version="3.6.200",
+ gaml.compiler,
+ gama.ui.editor,
+ org.eclipse.xtext
+Import-Package: org.apache.commons.io,
+ org.eclipse.compare,
+ org.eclipse.ui.commands
+Automatic-Module-Name: gama.experimental.markdown

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="gama.experimental.feature.matlab"
+      label="Matlab"
+      version="2024.6.0.qualifier"
+      provider-name="UMMISCO">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      GPL v3
+   </license>
+
+   <plugin
+         id="gama.experimental.matlab"
+         version="0.0.0"/>
+
+</feature>

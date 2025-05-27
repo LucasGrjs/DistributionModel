@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Other Databases formats
+Bundle-SymbolicName: gama.experimental.database.extended;singleton:=true
+Bundle-Vendor: IRIT
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: irit.gama.extensions.database.extended
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Require-Bundle: gama.core,
+ gama.dependencies,
+ gama.annotations,
+ gama.extension.database,
+ org.eclipse.osgi;bundle-version="3.17.200"
+Bundle-Activator: gama.experimental.database.extended.Activator
+Bundle-ActivationPolicy: lazy
