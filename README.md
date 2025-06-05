@@ -78,6 +78,5 @@ Alternatively, this could also be:
 
 All results from these simulations will be located in the `Distributed_Evacuation_Model/output.log/` directory after the model execution. Specifically, `/output.log/snapshot/` will contain the snapshots of the simulation from each **Processor**.
 
-![kmean_2](https://github.com/user-attachments/assets/0f86bc4a-e794-4ca3-a028-d4f9253a4fa7)
-![grid_6_2](https://github.com/user-attachments/assets/2b9ca094-4b04-4dec-bd6e-ca9c190c35c3)
+![kmean_2](https://github.com/LucasGrjs/DistributionModel/blob/main/grid_6_2.gif)
 
