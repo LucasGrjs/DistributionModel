@@ -66,6 +66,7 @@ The product of `grid_width` and `grid_height` should always equal the number of 
 Alternatively, this could also be:
 * `int grid_width <- 1;`
 * `int grid_height <- 3;`
+
 * `// 1 x 6 = 6`
 
 ```bash
@@ -76,3 +77,7 @@ Alternatively, this could also be:
 ### Results
 
 All results from these simulations will be located in the `Distributed_Evacuation_Model/output.log/` directory after the model execution. Specifically, `/output.log/snapshot/` will contain the snapshots of the simulation from each **Processor**.
+
+![kmean_2](https://github.com/user-attachments/assets/0f86bc4a-e794-4ca3-a028-d4f9253a4fa7)
+![grid_6_2](https://github.com/user-attachments/assets/2b9ca094-4b04-4dec-bd6e-ca9c190c35c3)
+
