@@ -27,16 +27,25 @@ Follow these steps to compile the project:
     ```bash
     cd ../Distributed_Evacuation_Model/
     ```
+4.  Give execution permissions to the script:
+    ```bash
+    chmod +x startHeadless
+    chmod +x startMpiModel
+    ```
 
 ---
 
 ## Running the Thematic Model (for testing)
 
-To start the Thematic Model for testing purposes, execute the following command:
+To start the Thematic Model for testing purposes , execute the following command:
+
+
 
 ```bash
-./startHeadless ThematicModel/Continuous_Move.xml # Evacuation Model
+./startHeadless ThematicModel/Continuous_Move.xml # Evacuation Model   
  ```
+
+Warning : l.61 (do die;) must be uncommented for centralized execution but commented for distributed execution
 
 ## How to Start the Distribution Models
 
